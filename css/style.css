@@ -2,25 +2,129 @@
     margin: 0px;
     box-sizing: border-box;
 }
-header{
-    height: 63px;
-    background-color: white;
+
+body{
+    font-family: "Outfit", sans-serif;
+    
 }
-section{
-    height: calc(100vh - 63px);
-    width: 100%;
+
+header{
+    width: 1020px;
+    height: 60px;
+    margin: 0 auto;
     display: flex;
+    justify-content: space-between;
+    padding: 15px 90px 15px 90px;
+}
+
+a{
+    text-decoration: none;
+    color: inherit;
+}
+
+.menu{
+    width: 550px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: rgb(154, 165, 172);
+}
+
+.logo{
+    height: 60px;
+    padding: 0 0 16px 0;
+}
+
+.boton{
+    border-radius: 9px;
+    background-color: black;
+    padding: 11px 25px 11px 25px;
+    color: white;
+    margin-right: 16px;
+}
+
+
+section{
+    height: 485px ;
+    width: 1200px;
+    display: flex;
+    align-items: flex-start;
+    margin: 0 auto;
 }
 .datos{
     width: 50%;
-    height: calc(100vh - 63px) ;
-    background-color: cornflowerblue;
+    height: 525px ;
+    padding: 80px;
 }
+
+.top-buttons{
+    display: flex;
+    align-items: center;
+    height: 23px;
+    width: 210px;
+    background-color:rgb(242, 238, 246);
+    border-radius: 15px;
+    font-family: "Outfit", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 300px;
+    font-style: normal;
+    font-size: 11px;
+    color: blueviolet;
+}
+
+.whats-new{
+    border-radius: 9px;
+    background-color: white;  
+    height: 19px;  
+    width: 70px;
+    margin: 0 3px 0 5px;
+    padding: 3px;
+}
+
+.titulos{
+    font-family: "Outfit", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600px;
+    font-style: normal;
+    font-size: 42px;
+}
+
+.text-style{
+    font-family: "Outfit", sans-serif;font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 15px;   
+    color: rgb(154, 165, 172);
+    margin: 30px 0 0 0;
+}
+
+.bottom-buttons{
+    display: flex;
+    margin: 40px 0 0 0;
+}
+
+.white-button{
+    background-color: white;
+    border:1px solid black;
+    color: black;
+}
+
 .videoContainer{
-    width: 50%;
-    height: calc(100vh - 63px) ;
-    background-color: blueviolet;
+    width:50%;
+    height: 525px;
 }
+
 .videoHome{
     width: 100%;
+}
+
+footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-weight: 100;
+    font-size: 14px;
 }

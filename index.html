@@ -6,14 +6,44 @@
         <title>My first layout</title>
     </head>
     <link rel="stylesheet" href="./css/style.css">
-    <body>
-        <header> </header>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0&icon_names=keyboard_arrow_down" />    <body>
+        <header> 
+            <img src="./statics/Figma-logo.svg.png" alt="logo de figma" class="logo">
+            <nav class="menu">
+                <a href=""> Home </a>
+                <a href=""> About </a>
+                <a href="">Resources </a>
+                <a href=""> Contact </a>
+                <a href=""> Log In </a>
+                <a href="" class="boton"> SingUp </a>
+            </nav>
+        </header>
         <section>
-            <div class="datos"></div>
+            <div class="datos">
+                <div class="top-buttons">
+                    <a href="" class="whats-new">What's new?</a>
+                    <a href="" class="auto-layout">A guide to auto-layout →</a>
+                </div>
+                <h1 class="titulos">You're not alone <br>
+                You have peers</h1>
+                <p class="text-style">Join thousands of people who have walked in your <br>
+                shoes and survived</p>
+                <div class="bottom-buttons">
+                    <a href="" class="boton white-button"> Demo </a>
+                    <a href="" class="boton"> Join Us </a>
+                </div>
+            </div>
             <div class="videoContainer">
-                <video src="./statics/videofigma.mp4" autoplay class="videoHome"></video>
+                <video src="./statics/videofigma.mp4" autoplay playsinline class="videoHome"></video>
             </div>
         </section>
-        <footer></footer>
+        <footer>
+            <p class="footer"> © Neque porro quisquam |
+                                Buenos Aires, Argentina 2024 </p>
+        </footer>
     </body>
 </html>
