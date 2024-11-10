@@ -1,0 +1,26 @@
+*{
+    margin: 0px;
+    box-sizing: border-box;
+}
+header{
+    height: 63px;
+    background-color: white;
+}
+section{
+    height: calc(100vh - 63px);
+    width: 100%;
+    display: flex;
+}
+.datos{
+    width: 50%;
+    height: calc(100vh - 63px) ;
+    background-color: cornflowerblue;
+}
+.videoContainer{
+    width: 50%;
+    height: calc(100vh - 63px) ;
+    background-color: blueviolet;
+}
+.videoHome{
+    width: 100%;
+}
