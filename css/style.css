@@ -5,7 +5,6 @@
 
 body{
     font-family: "Outfit", sans-serif;
-    
 }
 
 header{
@@ -43,12 +42,10 @@ a{
     margin-right: 16px;
 }
 
-
 section{
     height: 485px ;
     width: 1200px;
     display: flex;
-    align-items: flex-start;
     margin: 0 auto;
 }
 .datos{
@@ -64,10 +61,7 @@ section{
     width: 210px;
     background-color:rgb(242, 238, 246);
     border-radius: 15px;
-    font-family: "Outfit", sans-serif;
-    font-optical-sizing: auto;
     font-weight: 300px;
-    font-style: normal;
     font-size: 11px;
     color: blueviolet;
 }
@@ -90,16 +84,13 @@ section{
 }
 
 .text-style{
-    font-family: "Outfit", sans-serif;font-optical-sizing: auto;
     font-weight: 400;
-    font-style: normal;
     font-size: 15px;   
     color: rgb(154, 165, 172);
     margin: 30px 0 0 0;
 }
 
 .bottom-buttons{
-    display: flex;
     margin: 40px 0 0 0;
 }
 
@@ -120,7 +111,6 @@ section{
 
 footer{
     display: flex;
-    flex-direction: row;
     justify-content: center;
     font-family: "Montserrat", sans-serif;
     font-optical-sizing: auto;
